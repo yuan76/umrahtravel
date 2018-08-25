@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^index?$ index.php
+RewriteRule ^([0-9a-z]+)$  orderLink.php?username=$1
+
+#RewriteRule ^username/([0-9a-z]+) orderLink.php?username=$1
+</IfModule>

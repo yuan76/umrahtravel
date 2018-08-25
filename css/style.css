@@ -1,0 +1,691 @@
+  #mainNav{
+	background-color: #ffffff;
+	opacity: 0.9;
+  }
+a.btn.btn-light.btn-xl{
+  -webkit-transition:all .2s;
+	-moz-transition:all .2s;
+	transition:all .2s
+  }
+#background{
+	background-image: url("../img/utama.jpg");
+	position: fixed;
+	width: 1350px;
+	height:665px;
+	z-index:-1;
+}
+#backgroundTab{
+	background-image: url("../img/bgMenuBaru.jpg");
+	position: fixed;
+	width: 1350px;
+	height:665px;
+	z-index:-1;
+}
+#backgroundTentang{
+	background-image: url("../img/bgTentang.jpg");
+	position: fixed;
+	width: 1350px;
+	height:665px;
+	z-index:-1;
+}
+#unggul{
+	background-color: #c9fcdb;
+}
+.navbar-brand-bottom{
+	font-size: 12px;
+}
+.navbar-logo img{
+	width: 80px;
+	height: 45px;	
+}
+#ketentuan{
+	background-color: #f4e969;
+}
+#garisKetentuan{
+	border-color: #cdad4e;
+}
+#ketentuan i.sr-icons{
+	color: #cdad4e;
+}
+#tatacara{
+ background-color: #cff875;
+}
+#garisCara{
+	border-color: #00ff6f;
+}
+#tabel{
+	background-color: #639b29;
+}
+#garisSetoran{
+	border-color: #ddff00;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+	border-radius: 10px;
+}
+th{
+	background-color: #000000;
+	color: #fff;
+	
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+	opacity: 0.9;	
+}
+
+tr:nth-child(odd) {
+    background-color: #b0b0b0;	
+}
+#contactMenu{
+	background-color: #dbbb70;
+}
+#menu-contact{
+	border-color: #8a6c00;
+}
+
+@media (max-width: 480px)
+{
+	#gamberit img{
+		width: 250px;
+	}
+	#profil img{
+		width: 250px;
+	}
+	th{
+		display:none;
+	}	
+	tbody tr,
+	tbody tr td{
+		display:block;
+	}
+	tbody td{
+		text-align: right;
+    	padding-right: 15px;
+		min-width:300px;
+	}	
+	tbody td:nth-of-type(1):before {
+		content: "Setoran/Bln (Rp): ";
+		float:left;
+		font-weight:bold;
+		padding-left:15px;
+	}
+	tbody td:nth-of-type(2):before {
+		content: "Setoran/Mgg (Rp): ";
+		float:left;
+		font-weight:bold;
+		padding-left:15px;
+	}
+	tbody td:nth-of-type(3):before {
+		content: "Setoran/hr (Rp): ";
+		float:left;
+		font-weight:bold;
+		padding-left:15px;
+	}
+	tbody td:nth-of-type(4):before {
+		content: "Perkiraan Berangkat: ";
+		float:left;
+		font-weight:bold;
+		padding-left:15px;
+	}
+/*
+	#navbarResponsive{
+		background-color:red;
+	}
+	*/
+	.navbar-toggler span{
+		background-color:#a9d053;
+	}
+	.navbar-logo img{
+		width: 42px;
+		height: 30px;
+	}
+	.navbar-brand{
+		font-size:1rem
+	}
+	#background{
+		background-image: url("../img/utama2.jpg");
+		position: fixed;
+		width: 850px;
+		height:540px;
+		z-index:-1;
+	}
+	#backgroundTab{
+		background-image: url("../img/bgMenuMob.jpg");
+		position: fixed;
+		width: 850px;
+		height:650px;
+		z-index:-1;
+	}
+	#backgroundTentang{
+		background-image: url("../img/bgProfil.jpg");
+		position: fixed;
+		width: 850px;
+		height:540px;
+		z-index:-1;
+	}
+	.bg-dark .container{
+		height: 350px !important;
+		width: 260px !important;
+	}
+	.tulis-footer{
+		margin-top: 150px !important;
+	}
+	.tulisan p{
+		margin-top: 20px !important;
+	}
+	.bg-dark .container .gambar-footer{
+		background-image: url("../img/footermob.jpg") !important;
+		height: 60px !important;
+		width: 210px !important;
+		text-align: center !important;
+	}
+	/*
+	.bg-dark .container .gambar-footer{
+		background-image: url("../img/footermob.jpg");
+		height: 110px;
+		width: 310px;
+	}
+	.bg-dark .container{
+	margin-left: 0px;
+	background-color: blue !important;
+		height: 150px !important;
+		width: 100px !important;
+	}
+	.tulis-footer{
+		margin-top: 60px !important;
+	}
+	.tulisan{
+		margin-top: 40px !important;
+	}
+	*/
+}
+.box-info{
+	background-color: red;
+	
+}
+.bg-primary a.btn{
+	background-color: #cafcd9;
+}
+.bg-primary a.btn:hover{
+	background-color: #00a28b;
+	color: #fff;
+}
+#btn-klik{
+	background-color: #cafcd9;
+}
+#btn-klik:hover{
+	background-color: #00a28b;
+	color: #fff;
+}
+#tentang{
+	color: #000000;
+}
+#garisUnggul{
+	border-color:#01a2d9;
+}
+#content-berita hr{
+	border-color:#ffd24e;
+}
+#garisBerita{
+	border-color:#ffd24e;
+}
+#page-top{
+	width: 100%;
+}
+.bg-berita{
+ background-color: #fffc8a;
+}
+#btn-berita{
+	background-color: #f3cf3b;
+}
+#btn-berita:hover{
+	background-color: #a3753a;
+	color: #fff;
+}
+#contact{
+	background-color: #c4e96d;
+}
+#gambar-contact{
+	border-color: #256000 !important;
+}
+#gamberit img{
+	width: 330px;
+	height: 210px;
+}
+#content-berita{
+	margin-bottom: 50px;
+}
+.logoKontak{
+	width: 60px;
+	height: 60px;
+}
+.bg-dark .container{
+
+	height: 300px;
+	width: 475px;
+}
+.tulis-footer{
+	margin-top: 100px;
+}
+.tulisan{
+	margin-top: 20px;
+}
+.bg-dark .container .gambar-footer{
+	background-image: url("../img/footer.jpg");	
+	height: 130px;
+	width: 470px;
+	left: 0px;
+}
+/*
+.bg-dark .container .gambar-footer{
+	background-image: url("../img/footer.jpg");	
+	height: 157px;
+	width: 495px;
+}
+*/
+/*
+.img-fluid:hover .portfolio-box-caption{
+	opacity:1
+}
+
+#tentang{
+	height: 700px;
+}
+#tentang .container{
+	margin-top: 115px;
+}
+*/
+@media (max-width: 1199px) {
+  .timeline.collapse-md {
+    left: 0;
+  }
+  .timeline.collapse-md:before {
+    left: 10px;
+  }
+  .timeline.collapse-md li {
+    left: 0;
+    width: 100%;
+  }
+  .timeline.collapse-md .timeline-entry {
+    left: 0 !important;
+  }
+  .timeline.collapse-md .timeline-entry .card {
+    margin-left: 40px !important;
+    margin-right: 0;
+  }
+  .timeline.collapse-md .timeline-entry .card:after {
+    right: auto;
+    left: -9px;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .timeline.collapse-md .timeline-circ {
+    left: 10px;
+  }
+}
+
+.timeline {
+  position: relative;
+  list-style: none;
+  padding: 20px 0 0 0;
+  /*
+  left: 50%;
+  */
+}
+/*
+#container-unggul{
+	background-color:blue;
+
+}
+ul.timeline{
+	background-color: white;
+}
+*/
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 4px;
+  background-color: #0c0c0c;
+  opacity: 0.15;
+  left: 50%;
+  margin-left: -2px;
+}
+/*
+
+.timeline-hairline.timeline:before {
+  width: 2px;
+  margin-left: -1px;
+}
+*/
+.timeline li {
+  position: relative;
+  display: block;
+  width: 50%;
+  left: -50%;
+  white-space: nowrap;
+  min-height: 30px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.timeline-entry {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  vertical-align: top;
+ /* margin: 0 -3px 0 0; */
+  white-space: normal;
+  left: 100%;
+}
+.timeline-entry .card {
+  position: relative;
+  margin-right: 30px;
+}
+/*
+.timeline-entry .card img,
+.timeline-entry .card .fa,
+.timeline-entry .card .md,
+.timeline-entry .card .glyphicon {
+  margin-right: 10px;
+}
+*/
+.timeline-inverted .timeline-entry {
+  left: 200%;
+}
+.timeline-inverted .timeline-entry .card {
+  margin-left: 30px;
+  margin-bottom: 15px;
+  margin-right: 0;
+}
+/*
+.timeline-entry .card:after {
+  content: "";
+  position: absolute;
+  top: 16px;
+  right: -9px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 9px 0 9px 9px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+.timeline-inverted .timeline-entry .card:after {
+  right: auto;
+  left: -9px;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.timeline-entry .card.style-default-dark:after {
+  border-color: transparent transparent transparent #20252b;
+}
+
+.timeline-entry .card.style-default:after {
+  border-color: transparent transparent transparent #e5e6e6;
+}
+.timeline-entry .card.style-default-light:after {
+  border-color: transparent transparent transparent #f2f3f3;
+}
+*/
+/*
+.timeline-entry .card.style-default-bright:after {
+  border-color: transparent transparent transparent #ffffff;
+}
+
+.timeline-entry .card.style-primary:after {
+  border-color: transparent transparent transparent #0aa89e;
+}
+.timeline-entry .card.style-primary-light:after {
+  border-color: transparent transparent transparent #7dd8d2;
+}
+.timeline-entry .card.style-primary-dark:after {
+  border-color: transparent transparent transparent #066265;
+}
+.timeline-entry .card.style-primary-bright:after {
+  border-color: transparent transparent transparent #caf0ee;
+}
+.timeline-entry .card.style-accent:after {
+  border-color: transparent transparent transparent #9c27b0;
+}
+.timeline-entry .card.style-accent-light:after {
+  border-color: transparent transparent transparent #c77bd4;
+}
+.timeline-entry .card.style-accent-dark:after {
+  border-color: transparent transparent transparent #681a7f;
+}
+.timeline-entry .card.style-accent-bright:after {
+  border-color: transparent transparent transparent #e9c9ef;
+}
+
+.timeline-entry .card.style-success:after {
+  border-color: transparent transparent transparent #4caf50;
+}
+.timeline-entry .card.style-warning:after {
+  border-color: transparent transparent transparent #ff9800;
+}
+.timeline-entry .card.style-danger:after {
+  border-color: transparent transparent transparent #f44336;
+}
+.timeline-entry .card.style-info:after {
+  border-color: transparent transparent transparent #2196f3;
+}
+*/
+.timeline-circ {
+  position: absolute;
+  top: 15px;
+  left: 200%;
+  width: 20px;
+  height: 20px;
+ line-height: 20px;
+  margin-left: -10px;
+  text-align: center;
+  background: #969c9c;
+  color: #ffffff;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #fff !important;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+}
+/*
+.timeline-circ .glyphicon,
+.timeline-circ .fa,
+.timeline-circ .md {
+  top: 0;
+  margin: 0;
+}
+*/
+.timeline-circ.circ-lg {
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  margin-left: -15px;
+}
+.timeline-circ.circ-lg .glyphicon,
+.timeline-circ.circ-lg .fa,
+.timeline-circ.circ-lg .md {
+  font-size: 14px;
+  line-height: 24px;
+}
+/*
+.timeline-circ.circ-xl {
+  top: 6px;
+  width: 38px;
+  height: 38px;
+  margin-left: -19px;
+}
+.timeline-circ.circ-xl .glyphicon,
+.timeline-circ.circ-xl .fa,
+.timeline-circ.circ-xl .md {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.timeline.no-shadow .card,
+.timeline.no-shadow .timeline-circ {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.timeline.no-card-shadow .card {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+*/
+/*
+@media (max-width: 768px) {
+  .timeline.collapse-xs {
+    left: 0;
+  }
+  .timeline.collapse-xs:before {
+    left: 10px;
+  }
+  .timeline.collapse-xs li {
+    left: 0;
+    width: 100%;
+  }
+  .timeline.collapse-xs .timeline-entry {
+    left: 0 !important;
+  }
+  .timeline.collapse-xs .timeline-entry .card {
+    margin-left: 40px !important;
+    margin-right: 0;
+  }
+  .timeline.collapse-xs .timeline-entry .card:after {
+    right: auto;
+    left: -9px;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .timeline.collapse-xs .timeline-circ {
+    left: 10px;
+  }
+}
+.timeline.collapse-lg {
+  left: 0;
+}
+*/
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
